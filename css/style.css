@@ -1,3 +1,107 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#date {
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 40px 40px;
+}
+#clock {
+    font-size: 160px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin: 80px 40px;
+}
 .hidden {
     display: none;
+}
+#login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-input {
+    margin-top: 20px;
+    border: none;
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    background-color:transparent;
+    font-size: 24px;
+}
+#login-input__input {
+    color: #fff;
+}
+#login-input__input::placeholder {
+    color: #fff;
+}
+#login-input__input:focus {
+    outline: none;
+}
+#greeting {
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+#todo-form {
+    display: flex;
+    justify-content: space-around;
+}
+#todo-form input {
+    border: none;
+    border-bottom: 3px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    background-color:transparent;
+    font-size: 18px;
+}
+#todo-form input::placeholder {
+    color: #fff;
+}
+#todo-form input:focus {
+    outline: none;
+}
+#todo-list {
+    display: flex;
+    flex-direction: column;  
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+#todo-list li {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+
+}
+#todo-list li span {
+    margin-top: 3px;
+    margin-right: 10px;
+}
+#todo-list li button {
+    background-color: transparent;
+    border: none;
+    margin-top: 4px;
+    font-size: 20px;
+    padding: 4px 4px 4px;
+    cursor: pointer;
+}
+#quote {
+    position: fixed;
+    bottom: 50px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+#weather {
+    position: fixed;
+    bottom: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
 }
